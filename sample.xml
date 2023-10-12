@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="sample" parallel="classes" >
+    <classes>
+      <class name="com.Runnerclass2.Amazon_Flipkart"/>
+      <class name="com.Runnerclass2.Flipkart"/>
+    </classes>
+  </test> <!-- sample -->
+</suite> <!-- parallel -->
